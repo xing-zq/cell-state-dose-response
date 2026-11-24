@@ -1,0 +1,22 @@
+{
+  "seed": 20261124,
+  "input_sha256": {
+    "metadata.csv": "8cfba1c58a738a6bd0ff0af83efbe3d323cd90a17fada114792afb365f47be8f",
+    "embeddings.csv": "35672cd55acd817a57dda3fad30e19e0665be0728fb4c7387ce1a5cf90b478b6"
+  },
+  "methods": [
+    "projection_only",
+    "projection_and_residual"
+  ],
+  "scope": "Retrospective internal benchmark; control-state labels only, no paired efficacy or toxicity labels.",
+  "rules": {
+    "projection_only": "median R >= 0.5",
+    "projection_and_residual": "median R >= 0.5 and median O <= 1"
+  },
+  "split": "26 fit + 13 calibration + 13 test controls per condition/plate; fixed hashed 3+3 drug split",
+  "comparisons_fixed_before_this_run": true,
+  "prior_data_exploration": true,
+  "python": "3.13.5",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3"
+}

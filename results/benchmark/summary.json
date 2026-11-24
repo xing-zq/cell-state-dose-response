@@ -1,0 +1,116 @@
+{
+  "n_wells": 70384,
+  "n_plates": 53,
+  "n_drugs": 1856,
+  "control_auc_R": 0.9949970614318726,
+  "controls": [
+    {
+      "method": "projection_only",
+      "condition": "healthy",
+      "n": 689,
+      "positive": 686,
+      "positive_rate": 0.9956458635703919
+    },
+    {
+      "method": "projection_only",
+      "condition": "storm-severe",
+      "n": 689,
+      "positive": 14,
+      "positive_rate": 0.020319303338171262
+    },
+    {
+      "method": "projection_and_residual",
+      "condition": "healthy",
+      "n": 689,
+      "positive": 633,
+      "positive_rate": 0.918722786647315
+    },
+    {
+      "method": "projection_and_residual",
+      "condition": "storm-severe",
+      "n": 689,
+      "positive": 10,
+      "positive_rate": 0.01451378809869376
+    }
+  ],
+  "full_screen": [
+    {
+      "method": "projection_only",
+      "candidate_drugs": 118,
+      "candidate_doses": 286
+    },
+    {
+      "method": "projection_and_residual",
+      "candidate_drugs": 15,
+      "candidate_doses": 22
+    }
+  ],
+  "fixed_split": [
+    {
+      "method": "projection_and_residual",
+      "eligible_drugs": 1816,
+      "selected": 38,
+      "R_repeats": 9,
+      "joint_repeats": 5,
+      "R_repeat_rate": 0.23684210526315788,
+      "joint_repeat_rate": 0.13157894736842105,
+      "own_rule_repeats": 5,
+      "BH_R_shift_pass": 0,
+      "min_adjusted_p": 0.09454394002498957
+    },
+    {
+      "method": "projection_only",
+      "eligible_drugs": 1816,
+      "selected": 138,
+      "R_repeats": 80,
+      "joint_repeats": 8,
+      "R_repeat_rate": 0.5797101449275363,
+      "joint_repeat_rate": 0.057971014492753624,
+      "own_rule_repeats": 80,
+      "BH_R_shift_pass": 70,
+      "min_adjusted_p": 0.015041081367611979
+    }
+  ],
+  "excluded_drugs": [
+    "4-Aminobenzoic acid",
+    "5-Fluorouracil",
+    "Allopregnanolone",
+    "Bepotastine",
+    "Butacaine",
+    "Clevudine",
+    "Coumarin",
+    "Cyclophosphamide",
+    "Dextromethorphan",
+    "Doxycycline hyclate",
+    "Eicosapentaenoic Acid",
+    "Erythromycin",
+    "Estramustine",
+    "Gemcitabine elaidate",
+    "Ingenol-3-angelate",
+    "Irsogladine",
+    "Luliconazole",
+    "Mecamylamine",
+    "Misoprostol",
+    "Mupirocin",
+    "Nitarsone",
+    "Otilonium",
+    "Pimavanserin",
+    "Rovamycin",
+    "Spiperone",
+    "Teneligliptin",
+    "Testosterone Enanthate",
+    "Valganciclovir",
+    "Ziprasidone",
+    "buclizine",
+    "chlorcyclizine",
+    "dorzolamide",
+    "ergonovine",
+    "flupentixol",
+    "gallopamil",
+    "ginsenoside-rg3",
+    "mitomycin-c",
+    "moracizine",
+    "nalfurafine",
+    "phenolsulfonphthalein"
+  ]
+}

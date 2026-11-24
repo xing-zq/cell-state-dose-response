@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+.venv/
+results/benchmark/well_scores.csv
+results/benchmark/all_splits.csv
+*.download
+*.verified
+~$*

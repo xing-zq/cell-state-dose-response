@@ -1,0 +1,5 @@
+method,condition,n,positive,positive_rate
+projection_only,healthy,689,686,0.9956458635703919
+projection_only,storm-severe,689,14,0.020319303338171262
+projection_and_residual,healthy,689,633,0.918722786647315
+projection_and_residual,storm-severe,689,10,0.01451378809869376
